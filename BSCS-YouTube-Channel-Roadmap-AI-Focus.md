@@ -1,6 +1,6 @@
-# BSCS YouTube Channel Roadmap: AI-Focused Engineering Journey
+# BSCS YouTube Channel Roadmap: AI-Anchored Engineering Journey
 
-**Version:** 1.0 | **Date:** April 05, 2026  
+**Version:** 2.0 | **Date:** April 05, 2026  
 **Curriculum Source:** HEC BS Computer Science 2025 (Effective Spring 2026)  
 **Analysis Sources:** Claude, ChatGPT, and Gemini career strategy analyses (cross-referenced)
 
@@ -8,11 +8,41 @@
 
 ## Channel Mission
 
-Transform a standard 4-year BSCS degree into a skill-based engineering journey that produces employable AI/ML engineers and technical entrepreneurs — not just degree holders.
+Transform a standard 4-year BSCS degree into a skill-based engineering journey that produces employable engineers and technical entrepreneurs — with AI/ML as the primary (but not the only) career vertical.
 
-**Channel Positioning:** The only Urdu/English YouTube channel that maps every HEC BSCS semester to real-world AI engineering skills, with production-grade projects and honest career guidance.
+**Channel Positioning:** The only Urdu/English YouTube channel that maps every HEC BSCS semester to real-world engineering skills, with AI as the anchor lens, production-grade projects, and honest career guidance that serves ALL engineering paths.
 
-**Blue Ocean Opportunity (All 3 analyses agree):** There is virtually no Urdu-language content at intermediate/advanced technical levels. Plenty of "What is a Linked List" content exists. Almost zero "When to use a Linked List in a production ML pipeline" content. This is the gap.
+**Blue Ocean Opportunity (All 3 analyses agree):** There is virtually no Urdu-language content at intermediate/advanced technical levels. Plenty of "What is a Linked List" content exists. Almost zero "When to use a Linked List in a production system" content. This is the gap.
+
+---
+
+## Channel Theme: AI-Anchored, Engineering-Wide
+
+This channel is NOT "AI-only." It follows an **AI-Anchored, Engineering-Wide** approach:
+
+**What this means in practice:**
+
+- **Years 1-2 (Semesters 1-4):** Foundational courses are taught for ALL engineering paths. AI is one prominent application lens alongside backend engineering, DevOps, system design, and data engineering. A student heading toward backend, cloud, security, or data engineering gets equal value from this content.
+- **Years 3-4 (Semesters 5-8):** The flagship track goes deep into AI/ML specialization. But parallel "career path" content covers alternative directions (Backend + AI, DevOps/MLOps, Data Engineering, Cybersecurity) so students who discover a different passion mid-degree have clear guidance.
+
+**Why this approach wins:**
+
+- Wider audience in Years 1-2 (every BSCS student, not just AI-aspirants)
+- Deep credibility in Years 3-4 (AI specialization is the flagship differentiator)
+- Students who pivot mid-degree don't feel abandoned — they have a path
+- All 3 analyses agree: "AI is a horizontal layer, not a vertical specialty" — every engineer needs AI literacy regardless of their primary role
+
+**The five career verticals this channel supports:**
+
+| Career Vertical | Channel Coverage | When It Diverges |
+|----------------|-----------------|-----------------|
+| **AI/ML Engineer** | Primary track — deepest coverage | Semester 6 (AI electives) |
+| **Backend + AI Engineer** | Strong coverage through core courses + AI integration content | Semester 6 (SE/backend electives) |
+| **MLOps / AI Infrastructure** | Covered through DevOps + Cloud + AI intersection | Semester 6 (infrastructure electives) |
+| **Data Engineer** | Covered through Database + Cloud + pipeline content | Semester 6 (data engineering electives) |
+| **Cybersecurity + AI** | Covered through Security + AI security content | Semester 6 (security electives) |
+
+Students should be able to follow the channel through Year 2 regardless of their eventual specialization, then branch into their chosen path from Semester 5 onward.
 
 ---
 
@@ -37,7 +67,7 @@ The hidden truth about Year 1: most students think these are "boring" foundation
 
 ### SEMESTER I — The Starting Line
 
-**Theme:** Programming thinking + mathematical foundations for AI
+**Theme:** Programming thinking + mathematical foundations for all engineering paths (AI lens highlighted)
 
 #### Official Subjects
 
@@ -90,7 +120,7 @@ By end of Semester 1, a student should be able to: write a 200-line Python progr
 
 ### SEMESTER II — Object Thinking + Digital Foundations
 
-**Theme:** Thinking in systems (OOP) + understanding hardware (Digital Logic) + the math behind AI
+**Theme:** Thinking in systems (OOP) + understanding hardware (Digital Logic) + the math behind AI and all engineering
 
 #### Official Subjects
 
@@ -268,16 +298,20 @@ By end of Semester 4, a student should be able to: analyze algorithm complexity 
 
 ## YEAR 3: SPECIALIZATION BEGINS — "Go Deep in AI"
 
-Year 3 is the inflection point. The core CS subjects here (Networks, Security, AI, Automata, Cloud) are directly career-defining. Electives begin in Semester 6 — this is where the AI specialization track kicks in hard.
+Year 3 is the inflection point. The core CS subjects here (Networks, Security, AI, Automata, Cloud) are directly career-defining. Electives begin in Semester 6 — this is where specialization tracks diverge.
 
-**Critical Decision Point:** By the start of Year 3, students choosing the AI track should have identified their specific direction within AI:
+**Critical Decision Point:** By the start of Year 3, students should have identified their primary career direction. The channel's AI track remains the flagship, but here's the full map of paths this channel supports:
 
-| AI Sub-Track | Focus | Best For |
-|-------------|-------|----------|
-| Applied AI/ML Engineer | Building and integrating AI into products | Students who love building products |
-| MLOps/AI Infrastructure | Deploying and scaling AI systems | Students who love DevOps and systems |
-| AI Research/Training | Model architecture and training | Students with strong math who enjoy theory |
-| Data Engineering + AI | Building data pipelines for AI | Students who love databases and backend |
+| Career Track | Focus | Best For | Channel Support Level |
+|-------------|-------|----------|---------------------|
+| Applied AI/ML Engineer | Building and integrating AI into products | Students who love building products | **Primary (full series)** |
+| MLOps/AI Infrastructure | Deploying and scaling AI systems | Students who love DevOps and systems | **Primary (full series)** |
+| Data Engineering | Building data pipelines and infrastructure | Students who love databases and backend | **Strong (dedicated series)** |
+| Backend + AI Engineer | Backend systems with AI integration | Students who love system design | **Strong (covered in core + AI integration)** |
+| Cybersecurity + AI | Securing AI systems and infrastructure | Students who love breaking/defending things | **Moderate (AI Security series + guidance)** |
+| AI Research/Training | Model architecture and training | Students with strong math who enjoy theory | **Moderate (foundations + guidance)** |
+
+**For students NOT choosing the AI track:** The core courses in Semesters 5-6 (Networks, Security, Cloud) are valuable for every path. When electives begin, we provide "Alternative Elective Paths" alongside the AI track recommendations so you can tailor your degree to backend, data engineering, or security.
 
 ---
 
@@ -367,10 +401,24 @@ For the AI specialization, the HEC curriculum offers these elective courses. Her
 | **Must-Take** | **Deep Learning** | Neural network architectures (CNNs, RNNs, Transformers), training techniques, transfer learning. The backbone of modern AI. |
 | **Must-Take** | **Natural Language Processing** | LLMs, text processing, sentiment analysis, machine translation. The hottest AI application area (2025-2030). |
 | **High Value** | **Computer Vision** | Image classification, object detection, generative models. Strong job market, especially for edge AI. |
+| **High Value** | **Data Engineering** | Data pipelines, ETL/ELT, data warehousing, streaming systems. All 3 analyses identify this as critically undersaturated. AI is only as good as its data — and someone needs to build the infrastructure that feeds the models. |
 | **Valuable** | **Reinforcement Learning** | Decision-making, robotics, game AI, RLHF (how ChatGPT was trained). More niche but high-ceiling. |
 | **Valuable** | **AI Ethics & Governance** | Responsible AI, bias, fairness, regulation (EU AI Act). Increasingly mandatory for production AI. |
 
-**Semester 6 Recommendation:** Take Machine Learning + Deep Learning + NLP + Computer Vision (or swap CV for RL based on interest).
+**Semester 6 Recommendation (AI Track):** Take Machine Learning + Deep Learning + NLP + Computer Vision (or swap CV for Data Engineering if you lean toward AI infrastructure/MLOps).
+
+#### Alternative Elective Paths (Non-AI Primary Tracks)
+
+Not every student will go AI-first. Here are recommended Semester 6 elective combinations for other career paths:
+
+| Career Path | Semester 6 Electives | Rationale |
+|-------------|---------------------|-----------|
+| **Data Engineering** | Data Engineering + Machine Learning + Big Data Analytics + Cloud-native databases | The "data plumber" path — builds pipelines that power AI and analytics. Claude analysis: "The bottleneck in most AI projects isn't the model — it's the data pipeline." |
+| **Backend + AI** | Machine Learning + Distributed Systems + Web Engineering + API Design | Backend fundamentals + enough ML to integrate AI features into products. The most versatile path. |
+| **Cybersecurity** | Network Security + Ethical Hacking + Cloud Security + AI Ethics & Governance | Security + AI security intersection. Perpetual talent shortage per all 3 analyses. |
+| **MLOps / Infrastructure** | Machine Learning + Data Engineering + DevOps Practices + Cloud Architecture | The "AI plumber" path. Gemini: "Most AI projects fail at deployment." Severely undersaturated. |
+
+> **Note on Data Engineering:** This course may not be formally listed in every university's AI specialization electives, but the HEC curriculum allows universities to offer any advanced CS course as an elective. If your university doesn't offer it formally, the channel will cover Data Engineering fundamentals as a dedicated cross-cutting series (see Channel-Level Structure below). The skills are too critical to skip — Apache Airflow, dbt, SQL at scale, Kafka, and pipeline orchestration are in extremely high demand.
 
 #### Skill Stack Translation
 
@@ -380,6 +428,7 @@ For the AI specialization, the HEC curriculum offers these elective courses. Her
 | Machine Learning | Regression, classification, clustering, SVMs, ensemble methods, evaluation metrics | The core toolkit. Understanding bias-variance tradeoff, cross-validation, hyperparameter tuning, feature engineering. Not just calling `model.fit()` — understanding what happens inside and why it works or fails. |
 | Deep Learning | Neural networks, CNNs, RNNs, Transformers, attention, transfer learning | Modern AI architecture. Understanding why Transformers dominate, how attention works, when to fine-tune vs train from scratch, transfer learning strategies. The architecture behind every LLM. |
 | NLP | Tokenization, embeddings, language models, sequence-to-sequence, text classification | The application area with the highest demand (2025-2030). RAG systems, chatbots, document processing, sentiment analysis. Understanding tokenization and embeddings deeply — not just API calls. |
+| Data Engineering (if selected) | ETL/ELT pipelines, data warehousing, streaming, orchestration, data quality | Building the infrastructure that feeds ML models. Apache Airflow for orchestration, dbt for transformations, Kafka for streaming, SQL at scale. All 3 analyses agree this is critically undersaturated and growing fast. |
 
 #### AI/Industry Relevance
 
@@ -388,6 +437,9 @@ For the AI specialization, the HEC curriculum offers these elective courses. Her
 
 > **The ML + DL + NLP combo is the AI engineer starter pack:**
 > Applied AI/ML Engineer is identified by all 3 analyses as the most accessible and highest-demand AI role for BSCS graduates. The path: ML fundamentals → DL architectures → NLP applications → production deployment. This semester loads all three critical knowledge areas.
+
+> **Data Engineering — the quietly critical role:**
+> Claude analysis: "AI is only as good as its data. The bottleneck in most AI projects isn't the model — it's the data pipeline." ChatGPT analysis: "Data Engineering is consistently in demand, consistently fewer applicants than software engineering roles." Gemini identifies "Data Infrastructure Explosion" as a major industry shift. Whether a student goes into AI, backend, or data engineering, understanding how to build reliable data pipelines is a career superpower. Students who can both build ML models AND build the pipelines that feed them are extremely rare and extremely valuable.
 
 #### Semester Project
 
@@ -402,6 +454,7 @@ Upgrade the Semester 5 RAG project: (1) Replace TF-IDF with vector embeddings (u
 - **"Machine Learning from Scratch to Production"** — Complete ML pipeline series. Not Kaggle notebooks — production ML with proper evaluation, monitoring, and deployment.
 - **"Deep Learning Architectures Explained"** — Visual, intuitive explanations of CNNs, RNNs, Transformers, Attention. "Here's what happens inside a Transformer when it processes your text."
 - **"Build a RAG System That Actually Works"** — The most in-demand tutorial series possible right now. Step-by-step with evaluation metrics.
+- **"Data Engineering for AI: Build the Pipeline"** — End-to-end data pipeline series: ingest real API data → transform with dbt → orchestrate with Airflow → serve to ML models. The content almost nobody makes but every company needs.
 
 #### Career Milestone
 
@@ -438,7 +491,15 @@ Year 4 is about going from "I can build ML models" to "I can build AI systems th
 | Elective-V | Computer Vision (if not taken in Sem 6) or Reinforcement Learning | Complete the core AI toolkit |
 | Elective-VI | AI Ethics & Governance | Increasingly mandatory for production AI. EU AI Act compliance is a real job requirement. |
 | Elective-VII | Knowledge Representation & Reasoning | Powers modern RAG, knowledge graphs, and AI agent systems |
-| Elective-VIII | An SE or Data Science elective (e.g., Distributed Systems, Big Data Analytics) | Broadens from pure AI to AI infrastructure — the MLOps angle |
+| Elective-VIII | Data Engineering (if not taken in Sem 6) or Distributed Systems or Big Data Analytics | Broadens from pure AI to AI infrastructure — the MLOps/Data Engineering angle |
+
+#### Alternative Semester 7 Elective Paths
+
+| Career Path | Semester 7 Electives | Rationale |
+|-------------|---------------------|-----------|
+| **Data Engineering** | Data Engineering (if not taken), Big Data Analytics, Streaming Systems, Data Governance | Double down on pipeline and infrastructure skills |
+| **Backend + AI** | Distributed Systems, API Design, Machine Learning (if not taken), Performance Engineering | System design depth + ML integration capability |
+| **MLOps** | Data Engineering, ML Pipeline Tools, Cloud Architecture, Monitoring & Observability | The full production ML stack |
 
 #### Professional Certification Recommendations (AI Track)
 
@@ -461,6 +522,7 @@ The HEC 2025 curriculum mandates 3 credit hours of professional certification. F
 | Computer Vision / RL | Edge AI deployment, robotics applications, autonomous systems, RLHF for LLM alignment |
 | AI Ethics & Governance | Responsible AI deployment, bias detection, fairness metrics, compliance with AI regulations, model interpretability |
 | Knowledge Representation & Reasoning | Advanced RAG architectures, knowledge graphs, AI agent tool use, structured reasoning |
+| Data Engineering (if selected) | Production data pipelines at scale, real-time streaming, data quality frameworks, feature stores for ML. Builds the infrastructure that makes AI actually work in production. |
 | Distributed Systems / Big Data | Scaling ML training across clusters, distributed inference, Apache Spark for feature engineering at scale |
 | Professional Certification | Industry-recognized credential + cloud ML infrastructure skills |
 
@@ -523,6 +585,8 @@ The FYP must be supervised jointly by an industry supervisor and a faculty membe
 | AI-powered medical image analysis tool (in partnership with a hospital) | Computer vision, ethics/compliance, healthcare domain |
 | Intelligent tutoring system for K-12 students | RAG, personalization, education domain, scalability |
 | Real-time fraud detection for a fintech company | Streaming ML, feature engineering, low-latency serving |
+| End-to-end data platform for a local business (Data Engineering FYP) | Ingestion, transformation, warehousing, dashboards, data quality |
+| Scalable backend with AI-powered search for an e-commerce platform | Backend architecture, vector search, recommendation system, API design |
 
 #### Field Experience / Internship Guidance
 
@@ -533,13 +597,14 @@ The HEC mandates 6-8 weeks of industry internship. For AI-track students:
 - AI startups: Search for companies on LinkedIn with "AI" + "Pakistan"
 - Remote AI roles: Turing, Toptal, international AI startups hiring remote
 
-**Target Roles:**
-- ML Engineer Intern
-- Data Science Intern (with ML focus)
-- AI/Backend Engineer Intern
-- MLOps Intern
+**Target Roles (by career path):**
+- ML Engineer Intern / AI Engineer Intern (AI track)
+- Data Engineer Intern / Analytics Engineer Intern (Data Engineering track)
+- Backend Engineer Intern (Backend + AI track)
+- DevOps / MLOps Intern (Infrastructure track)
+- Security Analyst Intern (Cybersecurity track)
 
-**What to optimize for:** Learning rate, not salary. Choose the internship where you'll work on real ML systems, not where you'll fetch coffee.
+**What to optimize for:** Learning rate, not salary. Choose the internship where you'll work on real production systems, not where you'll fetch coffee.
 
 #### YouTube Series Ideas
 
@@ -559,20 +624,25 @@ By graduation, an AI-track student should be able to:
 6. Present a capstone project that demonstrates all of the above
 7. Have a portfolio: 8+ GitHub repos, technical blog, deployed projects, certification
 
-**This student is ready for:** Junior AI/ML Engineer, Applied AI Engineer, MLOps Engineer, Data Engineer (AI-focused), Backend Engineer (AI products) roles.
+**This student is ready for (depending on track chosen):**
+- **AI Track:** Junior AI/ML Engineer, Applied AI Engineer, NLP Engineer
+- **MLOps Track:** MLOps Engineer, AI Infrastructure Engineer, Platform Engineer
+- **Data Engineering Track:** Data Engineer, Analytics Engineer, AI Data Engineer
+- **Backend + AI Track:** Backend Engineer (AI products), Full-Stack Engineer, API Engineer
+- **Cybersecurity Track:** Security Analyst, Cloud Security Engineer, AI Security Specialist
 
 ---
 
 ## CHANNEL-LEVEL STRUCTURE
 
-### Flagship AI Track Playlist Structure
+### Core Playlist Structure (All Students — Years 1-2)
 
-The channel's main offering — a linear learning path that mirrors the degree:
+These playlists serve every BSCS student regardless of their eventual specialization:
 
 | Playlist | Semester Alignment | Episode Count (est.) |
 |----------|-------------------|---------------------|
-| Python for Future AI Engineers | Semester 1 | 15-20 |
-| Math for AI: Calculus + Linear Algebra | Semester 1-2 | 12-15 |
+| Python for Future Engineers | Semester 1 | 15-20 |
+| Math for Engineers: Calculus + Linear Algebra | Semester 1-2 | 12-15 |
 | OOP for AI Engineers | Semester 2 | 10-12 |
 | DSA for AI Engineers | Semester 3 | 15-20 |
 | SQL & Databases for ML Pipelines | Semester 3 | 10-12 |
@@ -582,6 +652,13 @@ The channel's main offering — a linear learning path that mirrors the degree:
 | Networks & APIs for AI Serving | Semester 5 | 8-10 |
 | AI Foundations: Classical to Modern | Semester 5 | 10-12 |
 | Probability & Statistics for ML | Semester 5 | 10-12 |
+
+### Specialization Playlists (Years 3-4 — Branch by Track)
+
+**AI/ML Track (Flagship):**
+
+| Playlist | Semester Alignment | Episode Count (est.) |
+|----------|-------------------|---------------------|
 | Machine Learning: Scratch to Production | Semester 6 | 15-20 |
 | Deep Learning Architectures | Semester 6 | 12-15 |
 | NLP & LLM Engineering | Semester 6 | 12-15 |
@@ -590,6 +667,21 @@ The channel's main offering — a linear learning path that mirrors the degree:
 | Advanced AI: Agents & Systems | Semester 7 | 10-12 |
 | AI Ethics & Responsible AI | Semester 7 | 6-8 |
 | Capstone Journey (Documentary Series) | Semester 8 | 8-10 |
+
+**Data Engineering Track:**
+
+| Playlist | Semester Alignment | Episode Count (est.) |
+|----------|-------------------|---------------------|
+| Data Engineering for AI: Build the Pipeline | Semester 6 | 12-15 |
+| SQL at Scale: Advanced Data Engineering | Semester 6-7 | 8-10 |
+| Streaming Systems: Kafka & Real-Time Data | Semester 7 | 8-10 |
+
+**MLOps / Infrastructure Track:**
+
+| Playlist | Semester Alignment | Episode Count (est.) |
+|----------|-------------------|---------------------|
+| MLOps: From Notebook to Production | Semester 6-7 | 10-12 |
+| Docker & Kubernetes for ML Engineers | Semester 6-7 | 8-10 |
 
 ### Cross-Cutting Series (Not Tied to One Semester)
 
@@ -604,6 +696,7 @@ These run alongside the main track and provide skills that span the entire degre
 | **"What Actually Happens When..."** | Deep technical explainers: "What happens when you call model.predict()?" "What happens inside a Transformer?" |
 | **"Build in Public"** | Monthly project builds from scratch on camera. Messy, real, with failures and Googling. Not polished tutorials. |
 | **"Paper Reading Club"** | Read and explain ML research papers in Urdu/English. Make academic papers accessible to undergrads. |
+| **"Career Paths Explained"** | Deep dives into each career vertical (AI Engineer, Data Engineer, MLOps, Backend, Security). Interview working professionals in each field. Help students pick their path with real data, not assumptions. |
 
 ### Mindset & Career Series (Non-Technical)
 
@@ -636,7 +729,9 @@ Cross-referencing the Claude, ChatGPT, and Gemini career analyses reveals strong
 
 6. **Written communication is the most underrated skill.** Pakistani CS students often lose remote roles due to weak written English. The channel should model good technical communication.
 
-7. **T-shaped skills win.** Deep in one area (AI), broad across the stack (backend, cloud, security). The curriculum naturally builds this shape.
+7. **T-shaped skills win.** Deep in one area (AI, Data Engineering, Backend, etc.), broad across the stack. The curriculum naturally builds this shape.
+
+8. **Data Engineering is critically undersaturated.** All 3 analyses flag this independently. Claude: "The bottleneck in most AI projects isn't the model — it's the data pipeline." ChatGPT: "Data Engineering is consistently in demand, consistently fewer applicants." Gemini: "Data Infrastructure Explosion" is a top-5 industry shift. The channel must give Data Engineering serious coverage, not treat it as an afterthought.
 
 ### Pakistan-Specific Insights
 
@@ -650,16 +745,16 @@ Cross-referencing the Claude, ChatGPT, and Gemini career analyses reveals strong
 
 ## APPENDIX A: SEMESTER-BY-SEMESTER QUICK REFERENCE
 
-| Semester | Key Subjects | AI Skill Unlocked | Milestone |
-|----------|-------------|-------------------|-----------|
-| 1 | Programming Fundamentals, Calculus | Python fluency, gradient descent intuition | First GitHub repo with a real data project |
-| 2 | OOP, Linear Algebra, Digital Logic | ML framework literacy, neural network math | Neural network from scratch (no libraries) |
-| 3 | Data Structures, Databases, OS | ML pipeline efficiency, data management, deployment basics | Deployed data processing system |
-| 4 | Algorithms, Software Engineering, Architecture | Algorithmic ML thinking, production practices, hardware awareness | CI/CD pipeline + algorithm implementation |
-| 5 | Networks, Security, AI, Automata, Prob/Stats | API design for ML, AI security, classical AI, statistical thinking | First RAG system deployed via API |
-| 6 | Cloud, ML, DL, NLP, CV | Full AI toolkit + cloud deployment | Production RAG v2 + fine-tuned model |
-| 7 | Advanced electives + Certification | Specialized AI depth + professional validation | Certified + multi-agent AI system |
-| 8 | Capstone + Internship | End-to-end AI system + industry experience | Job-ready portfolio |
+| Semester | Key Subjects | Engineering Skills Unlocked | Milestone |
+|----------|-------------|---------------------------|-----------|
+| 1 | Programming Fundamentals, Calculus | Python fluency, computational thinking, optimization math | First GitHub repo with a real data project |
+| 2 | OOP, Linear Algebra, Digital Logic | System design thinking, ML/graphics math, hardware awareness | Neural network from scratch (no libraries) |
+| 3 | Data Structures, Databases, OS | Pipeline efficiency, data management, deployment, Linux | Deployed data processing system |
+| 4 | Algorithms, Software Engineering, Architecture | Algorithmic thinking, production practices, GPU/CPU understanding | CI/CD pipeline + algorithm implementation |
+| 5 | Networks, Security, AI, Automata, Prob/Stats | API design, security, classical AI, statistical thinking | First RAG system deployed via API |
+| 6 | Cloud + Specialization Electives | AI toolkit / Data pipelines / Backend depth (by track) | Track-specific production project |
+| 7 | Advanced electives + Certification | Specialized depth + professional validation | Certified + advanced system |
+| 8 | Capstone + Internship | End-to-end system + industry experience | Job-ready portfolio |
 
 ## APPENDIX B: RECOMMENDED TOOL STACK (RESOURCE-CONSCIOUS)
 
@@ -682,6 +777,10 @@ Everything below is free or has a generous free tier, buildable on a mid-range l
 | CI/CD | GitHub Actions | Free for public repos |
 | API Framework | FastAPI | Python API standard for ML serving |
 | Monitoring | Prometheus + Grafana (local) | Free, industry-standard observability |
+| Data Pipeline Orchestration | Apache Airflow (local via Docker) | Industry standard for data pipeline scheduling |
+| Data Transformation | dbt (dbt-core, free) | The dominant tool for SQL-based data transformation |
+| Streaming | Apache Kafka (Docker) → Confluent Cloud (free tier) | Real-time data streaming standard |
+| Data Quality | Great Expectations (free) | Data validation and testing framework |
 
 ## APPENDIX C: CONTENT DIFFERENTIATION STRATEGY
 
@@ -689,16 +788,19 @@ What makes this channel different from every other CS YouTube channel:
 
 | Competitor Pattern | Our Differentiation |
 |-------------------|---------------------|
-| "What is a Linked List" (theory-first) | "When would you use a Linked List in a production ML pipeline?" (application-first) |
+| "What is a Linked List" (theory-first) | "When would you use a Linked List in a production system?" (application-first) |
 | Tutorial-style: "Follow along and type this code" | Co-building: "I'm also figuring this out. Let me show you how I think through problems." |
 | English-only advanced content | Urdu/bilingual advanced technical content (blue ocean) |
-| Separate tracks: "Learn Python" then "Learn ML" then "Learn Cloud" | Integrated: every subject taught through the AI engineering lens from day 1 |
+| Separate tracks: "Learn Python" then "Learn ML" then "Learn Cloud" | Integrated: every subject taught through an engineering lens with AI as the anchor |
+| AI-only or generic CS — pick one | AI-Anchored, Engineering-Wide — serves all paths, leads with AI |
 | Motivation: "You can do it!" | Reality: "Here's exactly what 200 job postings say you need. Let's build those skills." |
 | Academic: follows textbook chapters | Industry-aligned: follows what the job market actually demands |
-| Projects: Todo app, calculator, weather app | Projects: RAG system, document processor, fraud detector — things companies pay for |
+| Projects: Todo app, calculator, weather app | Projects: RAG system, data pipeline, document processor, fraud detector — things companies pay for |
+| One career path assumed | Multiple career verticals supported: AI, Data Engineering, MLOps, Backend, Security |
+| Ignores Data Engineering entirely | Dedicated Data Engineering coverage — filling a massive content gap |
 
 ---
 
-*This roadmap synthesizes the HEC BS Computer Science 2025 curriculum with career analyses from Claude, ChatGPT, and Gemini. It should be reviewed and updated semi-annually as the AI landscape evolves.*
+*This roadmap synthesizes the HEC BS Computer Science 2025 curriculum with career analyses from Claude, ChatGPT, and Gemini. It should be reviewed and updated semi-annually as the AI and engineering landscape evolves.*
 
 *Built for execution, not theory. Now go build something.*
