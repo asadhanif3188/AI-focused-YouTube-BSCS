@@ -1,7 +1,7 @@
 # BSCS YouTube Channel Roadmap: AI-Focused Engineering Journey
 
-**Version:** 1.0 | **Date:** April 2026
-**Curriculum Source:** HEC BS Computer Science 2025 (Effective Spring 2026)
+**Version:** 1.0 | **Date:** April 05, 2026  
+**Curriculum Source:** HEC BS Computer Science 2025 (Effective Spring 2026)  
 **Analysis Sources:** Claude, ChatGPT, and Gemini career strategy analyses (cross-referenced)
 
 ---
