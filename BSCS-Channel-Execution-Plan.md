@@ -43,6 +43,153 @@ Let's be brutally honest about the math before planning anything:
 
 ---
 
+## COURSE SEQUENCING MAP
+
+This is the most important section of this document. It answers three questions: (1) What order should courses be taught in? (2) What depends on what? (3) How do the production phases map to the HEC semester structure?
+
+### The Core Problem: University Order ≠ YouTube Order
+
+Universities teach Semester 1 → 2 → 3 → ... linearly because students take all courses simultaneously. On YouTube, viewers watch one series at a time. So we need to sequence courses by **dependency chains**, not semester numbers.
+
+### Course Dependency Graph
+
+Read this top-to-bottom. A course can only be started after ALL courses above it (connected by arrows) are completed.
+
+```
+LAYER 0 — No Prerequisites (Start Here)
+├── Python (Programming Fundamentals)
+├── Dev Environment Setup (ICT/Tools)
+└── Career Foundation Videos
+
+LAYER 1 — Requires Python
+├── OOP (Object Oriented Programming) ← requires Python
+├── Calculus for AI (connector) ← requires basic math comfort
+└── Linear Algebra for AI (connector) ← requires basic math comfort
+
+LAYER 2 — Requires Python + OOP
+├── Data Structures ← requires Python + OOP (classes for DS implementation)
+├── SQL & Databases ← requires Python (for scripting) but NOT OOP
+└── OS & Linux ← requires Python (for scripting)
+
+LAYER 3 — Requires DSA + Databases
+├── Algorithms ← requires Data Structures
+├── Software Engineering Practical ← requires Python + Git (from Layer 0)
+└── Computer Architecture (connector) ← standalone, but better after OS
+
+LAYER 4 — Requires DSA + DB + OS fundamentals
+├── Networks & APIs ← requires Python + basic OS (processes, ports)
+├── Probability & Statistics ← requires basic math (Layer 1)
+└── AI Foundations ← requires Python + basic math
+
+LAYER 5 — Requires Networks + Math + AI Foundations
+├── Machine Learning ← requires Python + Linear Algebra + Probability + basic AI
+├── Cloud Computing ← requires Networks + OS + Linux
+└── Information Security ← requires Networks + OS
+
+LAYER 6 — Requires ML + Cloud
+├── Deep Learning ← requires ML + Linear Algebra (strongly)
+├── NLP & LLMs ← requires ML + DL basics
+├── Data Engineering ← requires SQL + Python + Cloud basics
+├── RAG Project ← requires ML + NLP + Networks (APIs) + Databases
+└── Computer Vision ← requires ML + DL
+
+LAYER 7 — Advanced (Requires multiple Layer 6 items)
+├── Advanced AI: Agents & Systems ← requires RAG + NLP + Cloud
+├── MLOps ← requires ML + Cloud + Docker
+└── AI Ethics ← requires ML + NLP understanding
+```
+
+### How This Maps to Production Phases
+
+| Production Phase | Layers Covered | HEC Semesters Mapped | What Students Can Do After |
+|-----------------|---------------|---------------------|--------------------------|
+| **Phase 0** (Wk 1-2) | Layer 0 (partial) | Pre-Semester 1 | Have a dev environment, understand the channel's mission |
+| **Phase 1** (Mo 1-3) | Layer 0 complete | Semester 1 | Write Python programs, use Git, have career direction |
+| **Phase 2a** (Mo 4-5) | Layer 1 | Semester 1-2 | Write OOP code, understand AI math foundations |
+| **Phase 2b** (Mo 6-7) | Layer 2 | Semester 2-3 | Implement data structures, write SQL, use Linux |
+| **Phase 2c** (Mo 8) | Layer 3 (partial) | Semester 3-4 | Analyze algorithms, use CI/CD, understand hardware |
+| **Phase 3a** (Mo 9-10) | Layer 4 | Semester 5 | Build APIs, understand probability, know classical AI |
+| **Phase 3b** (Mo 11-12) | Layer 5 + 6 (partial) | Semester 5-6 | Train ML models, deploy to cloud, build RAG systems |
+| **Phase 3c** (Mo 13-14) | Layer 6 | Semester 6-7 | Build data pipelines, understand deep learning |
+| **Phase 4** (Mo 15+) | Layer 7 | Semester 7-8 | Build advanced AI systems, agents, production MLOps |
+
+### Detailed Course Sequence (Numbered Teaching Order)
+
+This is the exact order in which course content should be produced and released:
+
+| # | Course/Series | Episodes | Weeks | Prerequisites | HEC Semester |
+|---|--------------|----------|-------|---------------|-------------|
+| 1 | Dev Environment Setup | 1 | Wk 1 | None | Pre-Sem 1 |
+| 2 | Career Foundation (manifesto + job analysis) | 2 | Wk 1-2 | None | — |
+| 3 | **Python for Future Engineers** | 8 | Wk 3-10 | Dev environment | Sem 1 |
+| 4 | Career: Tutorial Hell / Career Paths | 2 | Wk 8, 14 | None | — |
+| 5 | **OOP for AI Engineers** | 7 | Wk 15-22 | Python complete | Sem 2 |
+| 6 | Linear Algebra for AI (connector) | 3 | Wk 17, 19, 21 | Basic math | Sem 2 |
+| 7 | **DSA for AI Engineers** | 10 | Wk 23-35 | Python + OOP | Sem 3 |
+| 8 | **SQL & Databases for ML Pipelines** | 6 | Wk 24-34 | Python (OOP helpful) | Sem 3 |
+| 9 | OS & Linux (connector) | 3 | Wk 33-35 | Python | Sem 3 |
+| 10 | **Algorithms for AI Engineers** | 4 | Wk 32-35 | DSA (at least 6 eps done) | Sem 4 |
+| 11 | SE Practical (connector) | 2 | Wk 34-36 | Python + Git | Sem 4 |
+| 12 | **Networks & APIs for AI Serving** | 4 | Wk 37-41 | Python + OS basics | Sem 5 |
+| 13 | Probability & Statistics for ML | 3 | Wk 38-42 | Basic math | Sem 5 |
+| 14 | AI Foundations (connector) | 2 | Wk 40-43 | Python + basic math | Sem 5 |
+| 15 | **Machine Learning: Scratch to Production** | 10 | Wk 42-52 | Python + LinAlg + Prob + APIs | Sem 6 |
+| 16 | Cloud for AI | 4 | Wk 46-50 | Networks + OS + Linux | Sem 6 |
+| 17 | **Build a RAG System** | 8 | Wk 47-55 | ML + APIs + Databases | Sem 5-6 |
+| 18 | **Deep Learning Architectures** | 6 | Wk 53-59 | ML + Linear Algebra | Sem 6 |
+| 19 | **Data Engineering: Build the Pipeline** | 7 | Wk 54-61 | SQL + Python + Cloud | Sem 6-7 |
+| 20 | NLP & LLM Engineering | 5 | Wk 58-63 | ML + DL basics | Sem 6 |
+| 21 | Advanced AI: Agents & Systems | 5 | Wk 64-69 | RAG + NLP + Cloud | Sem 7 |
+| 22 | AI Ethics & Responsible AI | 3 | Wk 66-69 | ML + NLP understanding | Sem 7 |
+| 23 | Capstone Journey (documentary) | 6 | Wk 70-76 | All above | Sem 8 |
+
+**Notes on the table above:**
+- Interleaved items (e.g., DSA and SQL running in parallel weeks) are released alternately, not simultaneously. Week 23 = DSA, Week 24 = SQL, Week 25 = DSA, etc.
+- Career/mindset videos are sprinkled throughout but not numbered because they have no dependencies — record them whenever you need a lighter production week.
+- "Connector" courses are 2-3 videos, not full series. They bridge the gap between theory and application.
+
+### Visual: The Student Learning Path
+
+A student following this channel sequentially would learn in this order:
+
+```
+STAGE 1: "I can code" (Months 1-3)
+  Setup → Python → Git → First project on GitHub
+
+STAGE 2: "I can design software" (Months 4-5)
+  OOP → Linear Algebra basics → Build ML components with classes
+
+STAGE 3: "I can build systems" (Months 6-8)
+  Data Structures → SQL & Databases → OS/Linux basics
+  → Algorithms → CI/CD → Second project: deployed data system
+
+STAGE 4: "I can build AI" (Months 9-12)
+  Networks/APIs → Probability → ML from scratch → Cloud deployment
+  → RAG System project → Third project: deployed AI application
+
+STAGE 5: "I can ship production AI" (Months 13-18)
+  Deep Learning → Data Engineering → NLP → Agents
+  → Capstone-level project → Portfolio complete, job-ready
+```
+
+### What Gets Skipped (and Why That's OK)
+
+The following HEC courses are NOT covered as dedicated series on the channel. Here's why, and what students should do instead:
+
+| Course | Why Not a Full Series | What Students Should Do |
+|--------|----------------------|------------------------|
+| Quantitative Reasoning I & II | General math — not CS-specific content | Attend university lectures. Channel covers the CS-relevant math (LinAlg, Calculus, Prob/Stats). |
+| Functional English / Expository Writing | Important skill but not a CS YouTube channel's strength | Attend university. Channel models good technical writing through documentation and blog post examples. |
+| Digital Logic Design | Hardware course — connector video covers the "why GPUs are fast" angle | Attend university. Watch the 1-2 connector videos for AI/engineering relevance. |
+| Computer Organization & Architecture | Same as above — connector only | Attend university. Connector video covers CPU vs GPU for AI workloads. |
+| Theory of Automata | Theoretical CS — connector video covers regex and formal grammar relevance | Attend university. Not high-demand YouTube content. |
+| All General Education courses | Pakistan Studies, Islamic Studies, Civics, etc. — completely outside channel scope | Attend university. These are not CS content. |
+| Entrepreneurship | Outside your current expertise (see roadmap Q&A discussion) | Bring in guest speakers. Cover the engineering-adjacent parts: estimating compute costs, scoping MVPs. |
+
+**The channel's role is to be the industry-relevant supplement to the university degree, not a replacement for it.** Students attend university for the full curriculum. They come to this channel for the "why does this matter" and "how to actually use this in a real job" that university doesn't teach.
+
+---
+
 ## PHASE 0: LAUNCH SPRINT (Weeks 1-2)
 
 **Goal:** Ship 3 videos in 2 weeks. Break the "perfect first video" paralysis. Done is better than perfect.
